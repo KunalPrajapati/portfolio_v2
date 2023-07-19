@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* 
+svg{
+  color: #5758BB !important;
+  margin-top: 8px !important;
+} */
+
+.aboutMeConnectBtn{
+  margin-top: 30px;
+}
+
+.ExpSvg{
+  margin-top: 6px;
+  font-size: 12px;
+  color: #5758BB;
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.GifGenDemoVideo{
+  /* height: 180px; */
+  width: 250px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  .experienceSection {
+    width: 100%;
+  }
+  .skillSection{
+    margin-left: 20px;
+    margin-right: 0;
+    column-gap: 180px;
+    padding: 12px;
+  }
+  .ContactMeClass{
+    margin-left: 60px;
+  }
+  .ContactMeOptions{
+    display: flex;
+    flex-direction: column;
+    height:100%;
+  }
+}
